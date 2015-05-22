@@ -1,0 +1,15 @@
+package tiles;
+
+//Container for a single tile
+message Tile {
+    required bytes tile = 1;
+}
+
+//Metatile container.
+//Stores tiles in an array. Array is all rows concatinated, left to right, then top to bottom
+//To get a specific tile, (size * col) + row. Zero Indexed
+message Metatile {
+  required int32 size = 1;
+  required string format = 2;
+  repeated Tile tiles = 3;
+}

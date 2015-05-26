@@ -32,7 +32,7 @@ You also need the requirements specified in requirements.txt. ```pip``` is the e
 ###Map Styles
 In config.py, edit the MAPS list. Add a tuple with the mapname, and the path to the mapnik style xml.
 
-To convert a CartoCSS style to mapnik xml, use the ```carto``` command from [Mapnik](https://github.com/mapbox/carto).
+To convert a CartoCSS style to mapnik xml, use the ```carto``` command from [Mapbox](https://github.com/mapbox/carto).
 
 ##Running
 

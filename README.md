@@ -10,7 +10,7 @@ Tile rendering is a fairly heavy task. Let's make this whole process more "cloud
 - [x] Distribute render tasks with Celery
 - [x] User Redis as a lock service to prevent the same metatile being rendered multiple times
 - [x] Figure out a way to configure/read styles to use
-- [0] Assuming both worker and server have access to the same folder. NFS works for distributed, by probably not optimal. Work out the best way to store the data. Database? Distributed FS? Memcached or similar?
+- [] Assuming both worker and server have access to the same folder. NFS works for distributed, by probably not optimal. Work out the best way to store the data. Database? Distributed FS? Memcached or similar?
 
 ##Installing
 You'll need mapnik2 installed, along with python bindings. Currently only tested with python 2.7, if I can get the mapnik bindings for python 3 installed, I'll test with those.
